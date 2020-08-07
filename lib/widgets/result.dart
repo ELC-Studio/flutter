@@ -66,9 +66,7 @@ class Result extends StatelessWidget {
             FlatButton(
               child: Text(
                 'Начать сначала',
-                style: TextStyle(
-                  fontSize: 20,
-                ),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
               ),
               onPressed: onClearState,
             )

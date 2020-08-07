@@ -34,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final whiteTextStyle = TextStyle(
     color: Colors.white,
     fontSize: 22,
+    fontWeight: FontWeight.w700
   );
 
   Widget build(BuildContext context) {
